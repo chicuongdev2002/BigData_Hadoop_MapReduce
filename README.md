@@ -26,7 +26,7 @@ hadoop jar share/hadoop/tools/lib/hadoop-streaming-2.6.5.jar
 -input /mydata/*
 -output /myresult/out-res01
 ```
-- Kiểm tra kết qyar
+- Kiểm tra kết qủa
 ```
 hdfs dfs -cat /myresult/out-res01/part-00000
 ```
